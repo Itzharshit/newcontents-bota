@@ -39,7 +39,9 @@ Get Telethon string session from:
 [![Run on Repl.it](https://replit.com/badge/github/vasusen-code/saverestrictedcontentbot)](https://replit.com/@SpEcHiDe/GenerateStringSession)
 
 # Deploy
-  
+  ### Deploy Now:
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 - Fork the repo, and star it
 - create app in heroku
 - go to settings of app>> config vars>> add all variables
