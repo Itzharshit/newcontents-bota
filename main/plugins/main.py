@@ -110,7 +110,7 @@ async def clone(event):
                  if 'Peer'in str(e):
                      await edit.edit("⚠️**Hell**, it is private Channel and i am unable to access it, First send me **invite link** of this Channel after that send this post link again.")
                      return
-                 await edit.edit("Failed, try again!")
+                 await edit.edit("🥺 Something went wrong, Please report in support group.")
                      
                                 
                                 
