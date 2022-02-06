@@ -65,7 +65,7 @@ async def clone(event):
                          if 'mp4' or 'x-matroska' in file.file.mime_type:
                              name = f'{chat}' + '-' + f'{msg_id}' + '.mp4'
                  await fast_download(name, file.document, userbot, edit, time.time(), '**⏳ Downloading:**')
-                 await edit.edit("Preparing to upload.")
+                 await edit.edit("⏳")
                  if 'mp4' in file.file.mime_type:
                      metadata = video_metadata(name)
                      height = metadata["height"]
