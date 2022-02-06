@@ -108,7 +108,7 @@ async def clone(event):
              except Exception as e:
                  print(e)
                  if 'Peer'in str(e):
-                     await edit.edit("Channel not found, have you joined it?")
+                     await edit.edit("⚠️**Hell**, it is private Channel and i am unable to access it, First send me **invite link** of this Channel after that send this post link again.")
                      return
                  await edit.edit("Failed, try again!")
                      
